@@ -1,0 +1,44 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.github.captain_miao.android.bluetoothletutorial">
+
+    <application
+        android:name="com.github.captain_miao.android.bluetoothletutorial.app.AppHolder"
+        android:allowBackup="false"
+        android:label="@string/app_name"
+        android:icon="@mipmap/ic_launcher"
+        tools:replace="android:label,android:icon,android:allowBackup"
+        android:theme="@style/AppNavigationDrawerTheme">
+
+
+
+        <meta-data android:name="AA_DB_NAME" android:value="BleYan.db" />
+        <meta-data android:name="AA_DB_VERSION" android:value="3" />
+        <meta-data
+            android:name="AA_MODELS"
+            android:value="com.github.captain_miao.android.bluetoothletutorial.model.FavouriteInfo,
+                            com.github.captain_miao.android.bluetoothletutorial.model.BleCommandInfo" />
+
+
+
+        <activity
+            android:name="com.github.captain_miao.android.bluetoothletutorial.DeviceCommunicateActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppNavigationDrawerTheme"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.github.captain_miao.android.bluetoothletutorial.BleDeviceActivity"
+            android:theme="@style/ActivityThemeNoBar"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <service android:name="com.github.captain_miao.android.bluetoothletutorial.ble.AppBleService" />
+    </application>
+
+</manifest>

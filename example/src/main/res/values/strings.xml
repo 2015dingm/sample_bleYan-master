@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">bleYan</string>
+
+    <string name="ble_unknown">unknown</string>
+    <string name="ble_name_label" formatted="false">%s(%s)</string>
+    <string name="ble_mac_label" formatted="false">Mac: \t%s</string>
+    <string name="ble_command_label" formatted="false">Command: \t0x%s</string>
+    <string name="ble_dbm_label" formatted="false">dBm: \t%d</string>
+    <string name="ble_broadcast_label" formatted="false">Scan Record: \r\n%s</string>
+    <string name="app_loading">processing…</string>
+
+    <string name="app_home">Home</string>
+    <string name="app_ble_scan_start">Scan</string>
+    <string name="app_ble_scan_stop">Stop</string>
+
+    <string name="app_ble_command_add">Add</string>
+
+    <string name="app_user_config">Config</string>
+    <string name="app_open_source">Git Open Source</string>
+    <string name="app_about">About</string>
+    <string name="app_name_about">@string/app_name</string>
+    <string name="app_version_about" formatted="false">Version: %s</string>
+    <string name="feedback">反馈</string>
+    <string name="about_me_email">captain_miao@163.com</string>
+    <string name="about_me_name" >Yan Lu</string>
+    <string name="about_me">E-mail：captain_miao@163.com \r\n\r\n\r\nBlog：http://yanlu.me \r\n\r\n\r\nWeChat：c16916</string>
+
+
+    <string name="unknown_device">Unknown device</string>
+    <string name="unknown_characteristic">Unknown characteristic</string>
+    <string name="unknown_service">Unknown service</string>
+
+    <string name="label_command_data">Command(limit length 20): </string>
+    <string name="label_command_name">Name: </string>
+    <string name="label_write_data">Write: </string>
+    <string name="label_read_data">Read Characteristic</string>
+    <string name="label_notify_data">Notify: </string>
+    <string name="label_command_name_hint">input name</string>
+    <string name="label_write_data_hint">input hex(max length 20 bytes)</string>
+    <string name="label_notify_characteristic_data">Data:</string>
+    <string name="label_data">Data:</string>
+    <string name="label_device_address">address:</string>
+    <string name="label_state">State:</string>
+    <string name="no_data">No data</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="title_devices">BLE Device Scan</string>
+    <string name="label_cancel">Cancel</string>
+    <string name="label_ok">OK</string>
+    <string name="button_share">SHARE</string>
+    <string name="button_clear">CLEAR</string>
+    <string name="button_log">LOG</string>
+
+    <string name="label_lbe_permissions" formatted="false">Permissions:\t%s</string>
+    <string name="label_lbe_properties" formatted="false">Properties:\t%s</string>
+    <string name="label_lbe_write_type" formatted="false">WriteType:\t%s</string>
+
+    <string name="label_action_add_command" formatted="false">Add Command</string>
+
+    <string name="label_command" formatted="false">Command</string>
+    <string name="label_request_open_gps_title" formatted="false">Turn On GPS</string>
+    <string name="label_request_open_gps_content" formatted="false">Please turn on the GPS, enabling GPS on Android 6.0 makes the scanner finding BLE devices.</string>
+    <string name="label_request_permission_title" formatted="false">Request Permission</string>
+    <string name="label_request_permission_content" formatted="false">Please grant location access, Android6.0 needs location access for ble scan</string>
+    <string name="label_permission_denial_title" formatted="false">Permission Denial</string>
+    <string name="label_permission_denial_content" formatted="false">permission denied, boo! Since location access has not been granted, this app will not be able to discover BLE devices…</string>
+
+
+    <string name="label_config_commands" formatted="false">COMMANDS</string>
+    <string name="label_config_devices" formatted="false">DEVICES</string>
+    <string name="app_tips_bluetooth_data_max_len">Bluetooth4.0 data max len 20</string>
+    <string name="app_tips_command_empty">command is empty</string>
+    <string name="app_tips_name_empty">name is empty</string>
+    <string name="app_tips_data_must_be_even">write data length must even</string>
+    <string name="app_tips_write_read_data">Write/Read</string>
+    <string name="app_tips_connect_fail">connect fail</string>
+    <string name="app_tips_discover_services_fail">discover services fail</string>
+    <string name="app_tips_notify_data_too_long">data length is too long…</string>
+    <string name="app_ble_log">Ble Log</string>
+
+
+    <string name="app_ble_status_0">BLE Initialed</string>
+    <string name="app_ble_status_1">BLE Scanning</string>
+    <string name="app_ble_status_2">BLE Connecting</string>
+    <string name="app_ble_status_3">BLE Connected</string>
+    <string name="app_ble_status_4">BLE Services Discovering</string>
+    <string name="app_ble_status_5">BLE Services Discovered</string>
+    <string name="app_ble_status_6">BLE Disconnecting</string>
+    <string name="app_ble_status_7">BLE Disconnected</string>
+    <string name="app_ble_status_8">Bluetooth_off</string>
+    <string name="app_ble_status_9">BLE Services Discover Failed</string>
+</resources>
